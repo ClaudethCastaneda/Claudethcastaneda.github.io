@@ -1,0 +1,205 @@
+header{
+    position: fixed;
+    top: 0;
+    z-index: 3000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    border-bottom: 2px solid #d7d7d7
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header h1{
+    color: #232323;
+}
+header ul li{
+    padding: 30px;
+    margin: 20px;
+    color: #232323;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    width: 230px;
+    padding: 10px;
+}
+
+
+
+
+/*HOME*/
+.seccion1 .col-md-12 {
+    /*Centrado*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    /* Fin del centrado */
+    height: 100vh;
+    width: 100%;
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.seccion1 h1{
+    font-size: 60px;
+    color: #ffffff;
+    backdrop-filter: blur(5px);
+}
+
+.seccion1 p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn1{
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+    background-color: #97c2c5;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: none;
+}
+
+.btn1 h2{
+    font-size: 20px;
+}
+
+.btn1:hover{
+    background-color: #3a6472;
+}
+
+/*DISCOVER JAPAN*/
+
+.seccion2 .col-md-12 {
+    height: 300px;
+    background-color: #b6d9dc;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.seccion2 img{
+    width: 300px;
+    margin-top: -200px;
+    margin-left: -1200px;
+}
+
+/*ABOUT iTRAVEL*/
+.seccion3 .col-md-7 {
+    height: 450px;
+    background-color: #ffffff;
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+.seccion3 img {
+    width: 300px;
+    padding-top: 30px;
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: auto; /* Centra horizontalmente */
+}
+
+.seccion3 h1 {
+    text-align: center;
+}
+
+.seccion3 p {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.btn3{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 45px;
+    width: 150px;
+    background-color: #97c2c5;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: none;
+}
+
+.btn3 h2{
+    font-size: 20px;
+}
+
+.btn3:hover{
+    background-color: #3a6472;
+}
+
+/*TITLE - SERVICES*/
+
+.seccion4 .col-md-12{
+    padding-top: 30px;
+    height: 150px;
+    background-color: #b6d9dc;
+    text-align: center;
+    
+}
+
+/*SERVICES*/
+
+.seccion5 .col-md-4{
+    height: 550px;
+    background-color: #b6d9dc;
+    text-align: center;
+    
+}
+
+.seccion5 h2{
+    padding-top: 20px;
+}
+
+.boton-imagen {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.boton-imagen img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.boton-imagen:hover img {
+    transform: scale(1.1); /* Cambia el tamaño de la imagen al 110% */
+}
+
+/*UBICACIÓN Y VIDEO*/
+.seccion6{
+    height: 450px;
+    background-color: #ffffff;
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+
+/*FOOTER*/
+
+
+.foot .col-md-12{
+    padding-top: 20px;
+    height: 50px;
+    background-color: #232323;
+    font-size: 10px;
+    color: #ffffff;
+}
